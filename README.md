@@ -9,7 +9,7 @@ Adam Jelža
 Creepystories je komunitná webová aplikácia určená predovšetkým slovenským, prípadne aj českým čitateľom a autorom hororových príbehov, známych ako *creepypasty*. Cieľom je vytvoriť jedno prehľadné miesto, kde si návštevníci môžu príbehy vyhľadávať a čítať, zatiaľ čo registrovaní používatelia môžu zverejňovať vlastnú tvorbu, komentovať príbehy a hodnotiť ich. Aplikácia bude navrhnutá s dôrazom na čitateľnosť, jednoduchú orientáciu a použiteľnosť aj na mobilných zariadeniach.
 
 ## Role v projekte
-
+    
 - **Návštevník:** Môže prehliadať zverejnené príbehy, čítať ich, vyhľadávať podľa názvu či autora, zobrazovať profily autorov.
 - **Registrovaný používateľ:** Má možnosti návštevníka. Navyše môže vytvárať a spravovať vlastné príbehy, písať a upravovať svoje komentáre.
 - **Moderátor:** Kontroluje príbehy čakajúce na schválenie a rozhoduje o ich prijatí alebo zamietnutí.
