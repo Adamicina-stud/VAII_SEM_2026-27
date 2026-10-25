@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creepystories | Domov</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="Creepystories – domov"><span>CREEPY</span>STORIES</a>
+        <nav class="nav-links" aria-label="Hlavná navigácia">
+            <a href="index.html#najnovsie">Príbehy</a>
+            <a href="index.html">O stránke</a>
+        </nav>
+        <div class="header-actions">
+            <details class="search-details">
+                <summary class="icon-button" aria-label="Otvoriť vyhľadávanie" title="Vyhľadávanie">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg>
+                </summary>
+                <div class="search-bar">
+                    <form action="index.html" method="get" role="search">
+                        <label for="story-search">Hľadať príbeh</label>
+                        <div class="search-form-row">
+                            <input id="story-search" name="q" type="search" placeholder="Názov príbehu alebo autor…" autocomplete="off">
+                            <button class="btn btn-dark" type="submit">Hľadať</button>
+                        </div>
+                    </form>
+                </div>
+            </details>
+            <div class="auth-guest">
+                <button class="text-button" type="button">Prihlásiť sa</button>
+                <button class="btn btn-dark btn-small" type="button">Registrovať sa</button>
+            </div>
+            <details class="mobile-menu">
+                <summary class="icon-button mobile-menu-toggle" aria-label="Otvoriť navigáciu" title="Menu">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </summary>
+                <nav class="mobile-nav" aria-label="Mobilná navigácia">
+                    <a href="index.html#najnovsie">Príbehy</a>
+                    <a href="index.html">O stránke</a>
+                    <button type="button">Prihlásiť sa</button>
+                    <button type="button">Registrovať sa</button>
+                </nav>
+            </details>
+        </div>
+    </div>
+</header>
+<main class="site-main">
+    <section class="hero" aria-labelledby="welcome-title">
+        <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 440 210"><circle cx="105" cy="53" r="18" fill="#b9b9b9"/><path d="M14 180 110 83l64 62 76-85 158 120Z" fill="#b9b9b9"/></svg>
+        </div>
+        <div class="hero-copy">
+            <h1 id="welcome-title">VITAJTE</h1>
+            <p>Miesto pre vaše najtemnejšie túžby.</p>
+            <button class="btn btn-dark" type="button">Náhodný príbeh</button>
+        </div>
+    </section>
+
+    <section class="stories-section" id="najnovsie" aria-labelledby="newest-heading">
+        <div class="section-heading"><h2 id="newest-heading">Najnovšie príbehy</h2></div>
+        <div class="story-grid">
+            <article class="story-card">
+                <h3>Šepot v lese</h3>
+                <p class="story-author">Noctis</p>
+                <p class="story-preview">Keď sa zotmie, les začne odpovedať na otázky, ktoré nikto nevyslovil.</p>
+                <div class="story-meta">
+                    <span aria-label="Hodnotenia">☆ 6</span>
+                    <span aria-label="Komentáre">● 2</span>
+                    <time datetime="2026-10-18">18. 10. 2026</time>
+                </div>
+            </article>
+            <article class="story-card">
+                <h3>Izba číslo 13</h3>
+                <p class="story-author">Luna</p>
+                <p class="story-preview">Hotelová izba, ktorá na pláne budovy nikdy neexistovala.</p>
+                <div class="story-meta">
+                    <span aria-label="Hodnotenia">☆ 3</span>
+                    <span aria-label="Komentáre">● 0</span>
+                    <time datetime="2026-10-17">17. 10. 2026</time>
+                </div>
+            </article>
+            <article class="story-card">
+                <h3>Posledný hovor</h3>
+                <p class="story-author">Erik</p>
+                <p class="story-preview">Telefón zazvonil o tretej ráno. Na displeji bolo jeho vlastné číslo.</p>
+                <div class="story-meta">
+                    <span aria-label="Hodnotenia">☆ 8</span>
+                    <span aria-label="Komentáre">● 4</span>
+                    <time datetime="2026-10-15">15. 10. 2026</time>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="stories-section" id="najlepsie" aria-labelledby="top-heading">
+        <div class="section-heading"><h2 id="top-heading">Najlepšie hodnotené</h2></div>
+        <div class="story-grid">
+            <article class="story-card">
+                <h3>Niečo pod posteľou</h3>
+                <p class="story-author">DarkFox</p>
+                <p class="story-preview">Každú noc počúvala, ako niekto dýcha pod jej posteľou.</p>
+                <div class="story-meta">
+                    <span aria-label="Hodnotenia">☆ 42</span>
+                    <span aria-label="Komentáre">● 13</span>
+                    <time datetime="2026-09-28">28. 9. 2026</time>
+                </div>
+            </article>
+            <article class="story-card">
+                <h3>Na druhej strane zrkadla</h3>
+                <p class="story-author">Raven</p>
+                <p class="story-preview">Odraz sa usmial o sekundu neskôr ako ona.</p>
+                <div class="story-meta">
+                    <span aria-label="Hodnotenia">☆ 36</span>
+                    <span aria-label="Komentáre">● 9</span>
+                    <time datetime="2026-09-12">12. 9. 2026</time>
+                </div>
+            </article>
+            <article class="story-card">
+                <h3>Vlak bez konečnej</h3>
+                <p class="story-author">Vlk</p>
+                <p class="story-preview">Nastúpil na posledný spoj. Žiadna stanica už neprichádzala.</p>
+                <div class="story-meta">
+                    <span aria-label="Hodnotenia">☆ 31</span>
+                    <span aria-label="Komentáre">● 7</span>
+                    <time datetime="2026-08-30">30. 8. 2026</time>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+</body>
+</html>

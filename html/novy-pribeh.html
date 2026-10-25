@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creepystories | Nový príbeh</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="Creepystories – domov"><span>CREEPY</span>STORIES</a>
+        <nav class="nav-links" aria-label="Hlavná navigácia">
+            <a href="index.html#najnovsie">Príbehy</a>
+            <a href="index.html">O stránke</a>
+        </nav>
+        <div class="header-actions">
+            <details class="search-details">
+                <summary class="icon-button" aria-label="Otvoriť vyhľadávanie" title="Vyhľadávanie">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg>
+                </summary>
+                <div class="search-bar">
+                    <form action="index.html" method="get" role="search">
+                        <label for="story-search">Hľadať príbeh</label>
+                        <div class="search-form-row">
+                            <input id="story-search" name="q" type="search" placeholder="Názov príbehu alebo autor…" autocomplete="off">
+                            <button class="btn btn-dark" type="submit">Hľadať</button>
+                        </div>
+                    </form>
+                </div>
+            </details>
+            <span class="profile-label">Môj profil</span>
+            <details class="mobile-menu">
+                <summary class="icon-button mobile-menu-toggle" aria-label="Otvoriť navigáciu" title="Menu">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </summary>
+                <nav class="mobile-nav" aria-label="Mobilná navigácia">
+                    <a href="index.html#najnovsie">Príbehy</a>
+                    <a href="index.html">O stránke</a>
+                    <a href="novy-pribeh.html">Nový príbeh</a>
+                </nav>
+            </details>
+        </div>
+    </div>
+</header>
+<main class="site-main editor-main">
+    <nav class="breadcrumbs" aria-label="Drobečková navigácia">
+        <a href="index.html">Domov</a><span aria-hidden="true">›</span>
+        <span>Môj profil</span><span aria-hidden="true">›</span>
+        <span aria-current="page">Nový príbeh</span>
+    </nav>
+    <h1 class="page-title">Vytvoriť nový príbeh</h1>
+
+    <form id="story-form">
+        <div class="form-row-title">
+            <label for="story-title" class="field-label">Názov príbehu</label>
+            <p class="story-status">Stav: <strong>Koncept</strong></p>
+        </div>
+        <input id="story-title" name="title" class="form-control" type="text" maxlength="120" placeholder="Zadaj názov príbehu...">
+        <label for="story-content" class="field-label field-label-content">Obsah</label>
+        <textarea id="story-content" name="content" class="form-control story-textarea" placeholder="Napíš svoj príbeh..."></textarea>
+        <div class="form-footer">
+            <button class="btn btn-light" type="button">Uložiť</button>
+            <button class="btn btn-light" type="button">Odoslať na schválenie</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>
